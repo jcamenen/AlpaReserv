@@ -1,0 +1,13 @@
+Nom de la salle
+Date de la location
+Type de créneau (créneau précis, soirée, demi-journée, journée...)
+Heure de la location
+Type de réservation (privé ou public)
+Locataire
+	- Différents type de locataire (Payant ou non)
+	- Nombre de fois qu'il a réservé dans le mois
+	- Infos du locataire si pas déjà rentré (s'il s'agit d'une association)
+Récurence de la réservation
+Equipements demandés (check list box à mon avis)
+Coût total de la réservation
+Paiement immédiat ou pré-réservation
