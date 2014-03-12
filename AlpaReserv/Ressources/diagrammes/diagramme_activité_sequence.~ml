@@ -3135,7 +3135,7 @@
 <XPD:ATTR name="Left" type="integer">128</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">896</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">836</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">212</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">209</XPD:ATTR>
 <XPD:REF name="Model">mHWTe33/pka5mzPwReSN0QAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ahmFYjBBUEW2vNxe8wOEdwAA">
 <XPD:ATTR name="Text" type="string">Configurer</XPD:ATTR>
@@ -3919,7 +3919,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="6f2h9IOO1EGltEjGcx39HgAA">
 <XPD:ATTR name="Alpha" type="real">-3,18785526456312</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">216,231357577942</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">19 : consulter les reservation()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">19 : consulter les reservations()</XPD:ATTR>
 <XPD:REF name="Model">0GZHM2HHXkS98jsG9hxx/gAA</XPD:REF>
 <XPD:REF name="HostEdge">u1Q1Sdi8+Eqeo/SZrhLafQAA</XPD:REF>
 </XPD:OBJ>
@@ -4027,7 +4027,7 @@
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="7ITMLJnP5k+VEIk1VgcYVwAA">
 <XPD:ATTR name="Alpha" type="real">0,0475831055394269</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">210,237960416286</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">22 : visualisation des reservation()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">22 : visualisation des reservations()</XPD:ATTR>
 <XPD:REF name="Model">U9RjoHErqEWycYUHjuGBXQAA</XPD:REF>
 <XPD:REF name="HostEdge">7iFY99InY0KWAghN5eeAWgAA</XPD:REF>
 </XPD:OBJ>
@@ -4668,7 +4668,7 @@
 <XPD:REF name="Views[3]">P1tMYJgm00uXApDniQfUqgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[18]" type="UMLStimulus" guid="0GZHM2HHXkS98jsG9hxx/gAA">
-<XPD:ATTR name="Name" type="string">consulter les reservation</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">consulter les reservations</XPD:ATTR>
 <XPD:REF name="Sender">15bgHhpw+EOf/Fpz7f6ezAAA</XPD:REF>
 <XPD:REF name="Receiver">ql4ZimI9NkahVfltJT+f5gAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="TlnoirwQj0GiSdmUNWek2wAA">
@@ -4710,7 +4710,7 @@
 <XPD:REF name="Views[3]">yijLy7RiB0i2yutyHCzV5AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[21]" type="UMLStimulus" guid="U9RjoHErqEWycYUHjuGBXQAA">
-<XPD:ATTR name="Name" type="string">visualisation des reservation</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">visualisation des reservations</XPD:ATTR>
 <XPD:REF name="Sender">ql4ZimI9NkahVfltJT+f5gAA</XPD:REF>
 <XPD:REF name="Receiver">15bgHhpw+EOf/Fpz7f6ezAAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="+PxG2dbsZkGDcmzgYCWXeAAA">
