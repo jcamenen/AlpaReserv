@@ -2,6 +2,21 @@
 <head>
 	<title>AlpaReserv</title>
 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+
+
+	<!-- INSERE ICI TON CSS MOTHERFUCKER -->
+	<!-- css dans le dossier assets a la racine -->
+	<!-- utiliser echo base_url pour charger le css -->
+
+
 
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
