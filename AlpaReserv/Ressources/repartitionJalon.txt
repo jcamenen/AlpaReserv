@@ -1,0 +1,41 @@
+Présentation du sujet (1min)
+
+Objectif et contexte
+	métier
+		Déjà fait, reprendre dans les diapos de mardi (1min)
+	besoin
+		Quelques exigences (1min)
+		Diagramme d'activité
+	architecture
+		diagramme déploiement (1min)
+		Choix hébergement (30sec)
+	
+Démontrer la faisabilité
+	Prototype
+		diagramme classe (1min30)
+		diagramme de séquences (1min30)
+		IHM (1min30)
+	Test
+		scénario (1min)
+		plan de test (1min)
+	Evolution
+		montrer que le pattern ne nous oblige pas à tout changer en cas de modif (1min)
+		Donner 2 ou 3 pistes d'évolution (1min)
+	
+Risques maitrisés
+	Reprendre le document sur les risques (1min30)
+
+PLanifier les couts et les itérations de développement (2min)
+	Itération 
+	Cout de développement
+	Cout d'installation
+
+	
+	
+	
+	Gwendal : PLanifier, Présentation sujet
+	Julien : métier + besoins (exigences)
+	Ada : architecture + risques
+	Baptiste : Evolution, Prototype (diagrammes classe)
+	Flo : Prototype (diagrammes séquence), besoins (diagramme d'activité) 
+	Loic : Prototype(IHM), Test
