@@ -18,7 +18,6 @@
 
 
 
-
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
@@ -27,6 +26,9 @@
 
 	<link href="<?php echo base_url()."assets/jqueryui/css/ui-lightness/jquery-ui-1.10.4.custom.css" ?>" rel="stylesheet" type="text/css">
 
+
+	<script src="<?php echo base_url()."assets/fullcalendar/fullcalendar.js" ?>"></script>
+	<link href="<?php echo base_url()."assets/fullcalendar/fullcalendar.css" ?>" rel="stylesheet" type="text/css">
 
 </head>
 <body>

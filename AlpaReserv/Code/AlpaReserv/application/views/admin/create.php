@@ -1,3 +1,6 @@
+<div class="container">
+
+
 <form method="post" action="traitement.php">
 	
 
@@ -7,7 +10,15 @@
       heightStyle: "content"
     });
   });
-  </script>
+</script>
+
+<script>
+  $(function() {
+    $( document ).tooltip();
+  });
+</script>
+
+
 <div id="accordion">
   <h3>Salle</h3>
   <div>
@@ -16,6 +27,13 @@
 	   <option value="salle_polyvalente_1">Salle Polyvalente 1</option>
 	   <option value="salle_polyvalente_2">Salle Polyvalente 2</option>
 	</select>
+	<br>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="500 personnes - 70€ - Sono">Grande salle</a>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="100 personnes - 20€ ">Petite salle</a>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="10 personnes - 50€ - Frigo, cuisinière">Cuisine</a>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="0 personnes - 10€ ">Vestiaire</a>
+
+	<br>
 	<br>
 
 	<label>Du </label>
@@ -111,51 +129,59 @@
 
   <h3>Equipement</h3>
   <div>
-	<table class="table table-bordered">
-		<colgroup>
-		    <col class="col-xs-1">
-		    <col class="col-xs-1">
-		    <col class="col-xs-2">
-		    <col class="col-xs-2">
-      	</colgroup>
-		<th>#</th>
-		<th>Choix</th>
-		<th>Nom</th>
-		<th>Prix unitaire</th>
-		<tr>
-			<td>1</td>
-			<td>Obligatoire</td>
-			<td>Sono</td>
-			<td>0</td>
-		</tr>
+  	<div class="row">
+  		<div class="col-md-8">
+  
+			
+			<table class="table table-bordered">
+				<colgroup>
+				    <col class="col-xs-1">
+				    <col class="col-xs-1">
+				    <col class="col-xs-2">
+				    <col class="col-xs-2">
+		      	</colgroup>
+				<th>#</th>
+				<th>Choix</th>
+				<th>Nom</th>
+				<th>Prix unitaire</th>
+				<tr>
+					<td>1</td>
+					<td>Obligatoire</td>
+					<td>Sono</td>
+					<td>0</td>
+				</tr>
 
 
-		<tr>
-			<td>2</td>
-			<td><input type="checkbox" name="option1" value="Milk"></td>
-			<td>Frigo</td>
-			<td>50</td>
-		</tr>
+				<tr>
+					<td>2</td>
+					<td><input type="checkbox" name="option1" value="Milk"></td>
+					<td>Frigo</td>
+					<td>50</td>
+				</tr>
 
 
-		<tr>
-			<td>3</td>
-			<td><input type="number" name="option1" value="Milk"></td>
-			<td>Chaise</td>
-			<td>0.50</td>
-		</tr>
+				<tr>
+					<td>3</td>
+					<td><input type="number" name="option1" value="Milk"></td>
+					<td>Chaise</td>
+					<td>0.50</td>
+				</tr>
 
 
-		<tr>
-			<td>4</td>
-			<td><input type="number" name="option1" value="Milk"></td>
-			<td>Table</td>
-			<td>1</td>
-		</tr>
+				<tr>
+					<td>4</td>
+					<td><input type="number" name="option1" value="Milk"></td>
+					<td>Table</td>
+					<td>1</td>
+				</tr>
 
-	</table>
-
+			</table>
+			</div>
+		<div class="col-md-4"></div>
+	</div>
   </div>
+</div>
+<h2>Prix total : 10€</h2>
+</form>
 
 </div>
-</form>
