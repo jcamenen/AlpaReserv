@@ -49,6 +49,11 @@ body{
 	color: black;
 }
 
+#prix{
+	text-align: right;
+	margin-right: 40px;
+}
+
 #foot_span:hover{
 	cursor: pointer;
 	color: white;

@@ -1,4 +1,4 @@
-<div class="container">
+
 
 
 <form method="post" action="traitement.php">
@@ -181,7 +181,5 @@
 	</div>
   </div>
 </div>
-<h2>Prix total : 10€</h2>
+<h2 id="prix" >Prix total : 10€</h2>
 </form>
-
-</div>

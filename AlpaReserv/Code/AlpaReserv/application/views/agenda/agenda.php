@@ -31,9 +31,9 @@ $(document).ready(function() {
 		    day: 'dddd d MMM yyyy'                  // Tuesday, Sep 8, 2009
 		},
 		monthNames: ["Janvier","Fevrier","Mars","Avril","Mai","Juin","Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre" ], 
-		monthNamesShort: ["Jan","Fev","Mar","Avr","Mai","Juin","Juil", "Aou", "Sep", "Oct", "Nov", "Dece" ],
-		dayNames: [ 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Decembre'],
-		dayNamesShort: [ 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dec'],
+		monthNamesShort: ["Jan","Fev","Mar","Avr","Mai","Juin","Juil", "Aou", "Sep", "Oct", "Nov", "Dec" ],
+		dayNames: [ 'Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
+		dayNamesShort: [ 'Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
 		buttonText:
 		{
 			today: "Aujourd'hui",
