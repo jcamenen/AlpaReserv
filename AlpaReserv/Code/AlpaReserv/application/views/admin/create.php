@@ -3,7 +3,7 @@
 
 <form method="post" action="traitement.php">
 	
-
+<h1>Création d'une réservation</h1>
 <script>
   $(function() {
     $( "#accordion" ).accordion({
@@ -22,21 +22,21 @@
 <div id="accordion">
   <h3>Salle</h3>
   <div>
-    <label>Salle polyvalente : </label>
+    Salle polyvalente : 
 	<select name="salle_polyvalente" >
 	   <option value="salle_polyvalente_1">Salle Polyvalente 1</option>
 	   <option value="salle_polyvalente_2">Salle Polyvalente 2</option>
 	</select>
 	<br>
-	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="500 personnes - 70€ - Sono">Grande salle</a>
-	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="100 personnes - 20€ ">Petite salle</a>
-	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="10 personnes - 50€ - Frigo, cuisinière">Cuisine</a>
-	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="0 personnes - 10€ ">Vestiaire</a>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="500 personnes - 70€ - Sono">Grande salle</a> <br>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="100 personnes - 20€ ">Petite salle</a> <br>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="10 personnes - 50€ - Frigo, cuisinière">Cuisine</a> <br>
+	<input type="checkbox" name="option1" value="Milk" id="rec"> <a href="#" title="0 personnes - 10€ ">Vestiaire</a> <br>
 
 	<br>
 	<br>
 
-	<label>Du </label>
+	Du 
 	<input type="text" id="datepicker">
 	<script>
 		$(function() {
@@ -46,7 +46,7 @@
 	<input type="time" name="heure_debut">
 
 
-	<label>au </label>
+	au 
 	<input type="text" id="datepicker2">
 	<script>
 		$(function() {
@@ -57,7 +57,7 @@
 	
 	<br><br>
 
-	<label>Visibilité</label><br>
+	Visibilité de la réservation sur l'agenda<br>
 	<input type="radio" name="option1" id="public"> Publique
 	<input type="radio" name="option1" id="private"> Privée
 
@@ -95,12 +95,12 @@
   </div>
   
 
-
+  <!-- PARTIE CLIENT -->
   <h3>Client</h3>
   <div>
 	<input type="radio" name="option1" value="nouveau" id="new"> Nouveau Client 
 	<input type="radio" name="option1" value="existant" id="exist"> Client Existant
-
+	<br><br>
 	<div id="client"></div>
 
 
@@ -111,12 +111,13 @@
 			$( "#client" ).append("	<label>Nom</label> <input type=\"text\" name=\"nom`\"> <br> ");
 			$( "#client" ).append("	<label>Adresse</label> <input type=\"text\" name=\"adresse`\"> <br> ");
 			$( "#client" ).append("	<label>Téléphone</label> <input type=\"text\" name=\"telephone`\"> <br> ");
+			$( "#client" ).append("	<input type=\"checkbox\" name=\"option1\" value=\"Milk\"> Association <br> ");
 			
 		});
 
 		$( "#exist" ).click(function() {
 			$( "#client" ).html("");
-			$( "#client" ).append( "Formulaire de recherche <br>" );
+			$( "#client" ).append( "Formulaire de recherche <br><br>" );
 			$( "#client" ).append("	<label>Nom</label> <input type=\"search\" name=\"nom`\"> <br> ");
 		});
 	</script>
@@ -126,7 +127,7 @@
 
 
 
-
+  <!-- PARTIE EQUIPEMENT -->
   <h3>Equipement</h3>
   <div>
   	<div class="row">
@@ -182,4 +183,7 @@
   </div>
 </div>
 <h2 id="prix" >Prix total : 10€</h2>
+
+
+<button style="text-align: right" type="button" class="btn btn-default btn-lg">Valider</button>
 </form>

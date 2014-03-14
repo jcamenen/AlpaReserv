@@ -36,4 +36,15 @@
 		<img id="header_logo_img" alt="Logo AlpaReserv'" src="<?php echo base_url()."assets/css/img/logo_img.png" ?>" width="100px"/>
 		<img id="header_logo_txt" alt="Logo AlpaReserv'" src="<?php echo base_url()."assets/css/img/logo_text.png" ?>" height="90px"/>
 	</div>
+
+	<div id="header_menu">
+		<ul>	
+			<li> Agenda </li>
+			<li> Réservation </li>
+			<li> Configuration </li>
+			<li> Statistiques </li>
+			<li> Configuration </li>
+		</ul>
+	</div>
+
 	<div  id="page">
