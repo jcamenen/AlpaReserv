@@ -1,0 +1,60 @@
+/* Style général de la page */
+body{
+	background-image: url("./img/alpa.jpg");
+	background-attachment:fixed;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Calibri";
+}
+
+#header{
+	width: 1000px;
+	margin: auto;
+	padding: auto;
+	height: 200px;
+}
+
+#header_logo_img{
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+
+#header_logo_txt{
+	position: relative;
+	top: 20px;
+	left: 130px;
+}	
+
+#page{
+	width: 1000px;
+	margin: auto;
+	padding: auto;
+	background-image: url("./img/arr_plan.png");
+	
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+#foot{
+	/*background-image: url("./img/arr_plan.png");
+	background-color: white;*/
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: underline;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: black;
+}
+
+#foot_span:hover{
+	cursor: pointer;
+	color: white;
+}
+
+#accordion{
+	margin: 10px;
+	padding: 10px;
+}

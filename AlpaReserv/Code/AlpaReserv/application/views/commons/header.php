@@ -12,9 +12,8 @@
 
 
 
-	<!-- INSERE ICI TON CSS MOTHERFUCKER -->
-	<!-- css dans le dossier assets a la racine -->
-	<!-- utiliser echo base_url pour charger le css -->
+	<!-- THEME CSS -->
+	<link rel="stylesheet" media="screen" href="<?php echo base_url()."assets/css/theme.css" ?>"/>
 
 
 
@@ -32,5 +31,9 @@
 
 </head>
 <body>
-
-	<h1>AlpaReserv</h1> 
+	
+	<div id="header">
+		<img id="header_logo_img" alt="Logo AlpaReserv'" src="<?php echo base_url()."assets/css/img/logo_img.png" ?>" width="100px"/>
+		<img id="header_logo_txt" alt="Logo AlpaReserv'" src="<?php echo base_url()."assets/css/img/logo_text.png" ?>" height="90px"/>
+	</div>
+	<div  id="page">
